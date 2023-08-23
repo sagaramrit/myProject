@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog page of Melrose</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .list-group-item{
+            border:none;
+        }
+        .right-sidebar {
+         position: sticky;
+         top: 0;
+      } 
+      .nav-item.dropdown .nav-item.dropdown .dropdown-menu {
+        top: 0;
+        left: 100%;
+        transform: translateX(0);
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+       <!-- Navbar Start -->
+       <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                <div class="icon p-2 me-2">
+                    <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
+                </div>
+                <a href="index.html"><h1 class="m-0 text-primary">Makaan</h1></a>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Buy</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="property-sell.html" class="dropdown-item">Properties For Sale</a>
+                            <a href="buyer-guide.html" class="dropdown-item">Buyer Guide</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Rent</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="property-rent.html" class="dropdown-item">Properties For Rent</a>
+                            <a href="tenant-guide.html" class="dropdown-item">Tenant's Guide</a>
+                        </div>
+                    </div>
+                    <a href="sell-rent.html" class="nav-item nav-link">Sell/Rent</a>
+                    <a href="commercial.html" class="nav-item nav-link">Commercial</a>
+                    <a href="off-plan.html" class="nav-item nav-link">Off Plan</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="company-name.html" class="dropdown-item">Company Name</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Meet The Team</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="director.html" class="dropdown-item">Directors</a>
+                                    <a href="clients-advisor.html" class="dropdown-item">Clients Advisor</a>
+                                    <a href="property-details.html" class="dropdown-item">Property</a>
+                                    <a href="maketing.html" class="dropdown-item">Marketing</a>
+                                </div>
+                                <a href="contact.html" class="dropdown-item">Contact Us</a>
+                                <a href="blogs.html" class="dropdown-item">Blogs</a>
+                                
+                            </div>
+                        </div> 
+                    </div>   
+                    <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="mortage.html" class="dropdown-item">Mortage</a>
+                            <a href="property-management.html" class="dropdown-item">Propertiies Management</a>
+                            <a href="powerhouse-academy.html" class="dropdown-item">Powrhouse Academy</a>
+                            <a href="bonyan-moten.html" class="dropdown-item">Bonyan Moten</a>
+                        </div>
+                    </div>
+                    <a href="carriers.html" class="nav-item nav-link">Carriers</a>
+                </div>
+                
+            </div>
+        </nav>
+       </div>
+       <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container mt-5">
+            <div class="row">
+                    <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page">How much does it cost to sell a home in Dubai?</li>
+                        </ol>
+                    </nav>  
+                    <h2>How much does it cost to sell a home in Dubai?</h2>
+                    <ul class="list-group list-group-horizontal">
+                      <li class="list-group-item"><i class="far fa-calendar-alt"></i> 4 Days Ago</li>
+                      <li class="list-group-item"><i class="fas fa-tag"></i> Category Name</li>
+                      <li class="list-group-item"><i class="far fa-comment"></i> Comments</li>
+                    </ul>        
+            </div>
+        </div>
+
+        <!-- Header End -->
+
+        <!-- Contents section start here -->
+        <div class="container-fluid py-5">
+            <div class="container">
+               <div class="row"> 
+                <div class="col-md-9">
+                    <div class="content-section border rounded p-4">
+                     
+                      <div class="row">
+                        <img src="images/ANWA by OMNIYAT 2BD Living Room-min.jpg" alt="" loading="lazy">
+                      </div>
+                      <div class="row mt-5">
+                        <p>Selling your home is a major choice that involves planning, from selecting a real estate agent to locating the ideal buyer, among other things. Furthermore, a lot of sellers aren’t aware of the extra expenses related to selling a property in Dubai, which can be discovered later on in the process. In this article, MyBayut breaks down the costs associated with selling ready, off-plan, and mortgaged apartments in Dubai. These are the standard expenses that every seller should anticipate, however other fees may apply depending on the property.</p><br>
+
+                        <h3>Cost of Selling Property in Dubai</h3>
+                        <p>To be more prepared during the process, homeowners and investors selling real estate in Dubai should be aware of the following associated fees:</p> <br>
+                        <h4>1. NOC FEES IN DUBAI: </h4>
+                        <p>The price of issuing the No-Objection Certificate (NOC) in Dubai is one of the upfront costs that sellers should budget for. The developer in Dubai issues the NOC, which attests that the seller is not still liable for any unpaid service fees or other fees. Additionally, it adds that the developer has no issues with the property being sold. The seller is typically responsible for paying the NOC fees in Dubai, which typically vary from 500 to 5,000 AED.</p><br>
+                        <h4>2. Agency Fess : </h4>
+                        <p>The seller’s agent fees are yet another cost associated with selling a home in Dubai. Working with a real estate agency in Dubai can help sellers market their home more effectively and draw in high-caliber purchasers. In Dubai, the selling agent commission is normally 2% of the property’s sale price. To appoint a seller’s agent, sellers must complete Form A, one of the RERA forms, which includes information about the percentage of the sale price that will be paid to the agent.</p> <br>
+
+                        <h4>3. Dubai Land Department Fees :</h4>
+                        <p>The Dubai Land Department Fees are an additional expense that sellers of real estate in Dubai should consider in addition to the NOC and Agent Fees. This fee, which is often split between the buyer and seller and is equal to 4% of the property’s sale price, is paid to the Dubai Land Department, the organization in charge of regulating all real estate transactions in the city. However, the sale and purchase agreement between the seller and the buyer will determine the percentage that each party must pay.</p> <br>
+                        <h4>4. Transfer of Ownership / Fees:</h4>
+                        <p>The last cost of selling a home in Dubai is the administrative or transfer of ownership charge due to the registration trustee offices of the DLD. Once more, this is one of the expenses associated with selling real estate in Dubai and, depending on the terms of their agreement, either the buyer or the seller will pay it in full.</p>
+                        <br>
+                        <p>However, the transfer fee will vary depending on the sale price of the property:</p>
+                        <ul>
+                            <li>If the sale price of the property is below AED 500,000: AED 2,100</li>
+                            <li>If the sale price of the property is below AED 500,000: AED 2,100</li>
+                        </ul>
+                        <br>
+                        <h4>5. Fees to Sell Off-Plan Properties in Dubai : </h4>
+                        <p>It’s crucial to speak with the developer about any restrictions that might apply to selling off-plan property in Dubai before the building is finished. When selling the property before a specific percentage of the payment plan has been completed, there can be restrictions or extra costs that need to be paid. These limitations and conditions, however, may vary depending on the developer.</p> <br>
+                        <h4>6. Fees to Sell Mortgaged Property in Dubai : </h4>
+                        <p>In Dubai, it is feasible to sell a home with a mortgage, but the process will cost more money for the seller. There will be fees for early mortgage payment, blocking the property, and other costs in addition to the cost of selling a house in Dubai as described above.</p>
+
+                        <ol>
+                            <li>
+                                <strong>Early Settlement Fees:</strong> This cost is associated with selling real estate in Dubai when the mortgage is paid off earlier than expected, as the name implies. The lowered early settlement fees, however, mean that sellers only have to pay 1% of the remaining amount or AED 10,000, whichever is lower. This is good news for homeowners and investors.
+                            </li>
+                            <li>
+                                <strong>Blocking Charges:</strong> The blocking fees are an additional expense when selling a mortgaged home in Dubai. The seller will pay for this in order to prevent the buyer from acquiring the property before the seller’s mortgage is paid off. This is typically paid to protect the buyer so that the property cannot be sold to anyone else until they pay off the seller’s mortgage. It can range from AED 1,020 to AED 1,520.
+                            </li>
+                            <li>
+                                <strong>Mortgage Release Fees:</strong> Together with extra expenses to be paid to the registration trustee, the seller is required to pay this fee in order to release their current mortgage. The release fee for a conventional mortgage is AED 1,290, while the cost for an Islamic mortgage is AED 1,560. These are some of the fees for selling a home in Dubai, regardless of whether it is a ready-to-move-in, off-plan, or mortgaged property. It’s crucial to remember that, depending on the situation, there can be extra fees.
+                            </li>
+                        </ol>
+                        <p>The cost of selling a home in Dubai is now complete, thanks for reading MyBayut! We hope that this post will simplify the selling process and help you better predict associated expenditures. On the other hand, MyBayut has also collected a thorough list of fees for purchasing property in Dubai if you’re going to buy or invest in the city’s real estate market. Our Dubai Q3 2019 market report contains information on average selling prices for properties as well.</p>
+                      </div>
+                      <div class="row">
+                        <h3>Related Post</h3>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/ANWA ARIA Interior 2-min.jpg" class="card-img-top" alt="..."  loading="lazy">
+                                <div class="card-body">
+                                    
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/ANWA ARIA Interior 2-min.jpg" class="card-img-top" alt="..."  loading="lazy">
+                                <div class="card-body">
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/ANWA ARIA Interior 2-min.jpg" class="card-img-top" alt="..."  loading="lazy">
+                                <div class="card-body">
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0">
+                    <div class="right-sidebar ">
+                       <div class="search-box border rounded p-4">
+                        <form action="" method="POST">
+                            <label for="Search">Search</label>
+                            <input type="text" name="name" class="form-control" id="name" >
+                            <button class="btn mt-3 btn-outline-secondary">Search</button>
+                        </form>
+                       </div>
+                       <div class="latest-post border mt-4 rounded p-4">
+                          <h3>Recent Post</h3>
+                          <div class="footer">
+                            <a class="btn btn-link" href="#">Most Trusted Property Advisory Brand Winner</a>
+                            <a class="btn btn-link"  href="#">International Business Magazine Awards</a>
+                            <a class="btn btn-link"  href="#">International Business Magazine Awards</a>
+                            <a class="btn btn-link"  href="#">International Business Magazine Awards</a>
+                            <a class="btn btn-link"  href="#">Where celebrities in Dubai live</a>
+                            <a class="btn btn-link"  href="#">Average ROI in Dubai Real Estate</a>
+                          </div>
+                       </div>
+                       <div class="category border rounded p-4 mt-4">
+                        <h3>Category</h3>
+                        <div class="footer">
+                            <a  class="btn btn-link" href="#">Apartments</a>
+                            <a  class="btn btn-link" href="#">Business</a>
+                            <a  class="btn btn-link" href="#">Mansions</a>
+                            <a  class="btn btn-link" href="#">Media Publications</a>
+                            <a  class="btn btn-link" href="#">Penthouse</a>
+                            <a  class="btn btn-link" href="#">Real Estate</a>
+                            <a  class="btn btn-link" href="#">Townhouse</a>
+                            <a  class="btn btn-link" href="#">Uncategorized</a>
+                            <a  class="btn btn-link" href="#">Vias</a>
+                            <a  class="btn btn-link" href="#">Villas</a>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+        <!-- Contents section close here -->
+           
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="">About Us</a>
+                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="">Our Services</a>
+                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Photo Gallery</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
